@@ -12,7 +12,6 @@ namespace DialogFlowChatBot
     }
     public class DialogflowRestService : IDialogflowService
     {
-        private readonly string _projectId = "chatagent-hoiv";
         private readonly string _credentialsPath = "./Secrets/dialogflow-credentials.json";
         private readonly HttpClient _httpClient;
 
@@ -29,7 +28,8 @@ namespace DialogFlowChatBot
 
             // Construct the session and URL
             var sessionId = Guid.NewGuid().ToString();
-            var url = $"https://dialogflow.googleapis.com/v2/projects/{_projectId}/agent/sessions/{sessionId}:detectIntent";
+            var projectId = DialogFlowConfiguration.GetProjectId();
+            var url = $"https://dialogflow.googleapis.com/v2/projects/{projectId}/agent/sessions/{sessionId}:detectIntent";
 
             // Prepare the request payload
             var payload = new
