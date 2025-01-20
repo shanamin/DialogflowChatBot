@@ -20,7 +20,7 @@ connection.
 * Clone the repository
 * After done with Visual studio and SDK insta create a Google cloud Project and Enable Dialogflow API
 * After enabling create a service account give permissions and generate credentials file by going to keys -> Add key -> Create new Key
-* Go to https://dialogflow.cloud.google.com/ on right side of Create Intent upload "flight booking.json" from "flight booking.zip"
+* Go to https://dialogflow.cloud.google.com/ on right side of Create Intent upload all json files one by one from "DialogFlowChatBot.rar"
 
 ### Executing program
 
