@@ -362,4 +362,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /DialogFlowChatBot/Secrets/dialogflow-credentials.json
-/DialogFlowChatBot/Secrets/dialogflow-credentials.json
