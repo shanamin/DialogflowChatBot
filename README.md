@@ -32,7 +32,7 @@ connection.
 Contributors names and contact info
 
 ex. Shan Amin  
-ex. [@DomPizzie](https://www.linkedin.com/in/shan-amin1/)
+ex. (https://www.linkedin.com/in/shan-amin1/)
 
 ## Version History
 
